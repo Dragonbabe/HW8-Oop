@@ -8,7 +8,7 @@ describe("Employee", () => {
 
     beforeEach(() => {
         //arrange and act
-        employee = new Employee(0);
+        employee = new Employee(0, 'ji');
 
     });
 
@@ -19,6 +19,10 @@ describe("Employee", () => {
 
         });
 
+        it('should create a name property', () => {
+            //assert
+            expect(employee.name).toEqual('ji');
+        })
     });
 
 });
