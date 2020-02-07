@@ -31,8 +31,7 @@ describe('Employee', () => {
     });
 
     test('Can get name via getName()', () => {
-        const testValue = 'Alice';
-        expect(employee.getName()).toBe(testValue);
+        const testValue = 'Alice'; expect(employee.getName()).toBe(testValue);
     });
 
     test('Can get id via getId()', () => {
