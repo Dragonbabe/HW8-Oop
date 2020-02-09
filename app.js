@@ -46,18 +46,23 @@ const roleQuestions = [
 ];
 
 async function init() {
-    const userInfo = await inquirer.prompt(questions);
+    try {
+        const userInfo = await inquirer.prompt(questions);
 
-    if (userInfo.role === 'manager') {
-        userInfo.roleInfo = await inquirer.prompt(roleQuestions[0]);
-    } else if (userInfo.role === 'engineer') {
-        userInfo.roleInfo = await inquirer.prompt(roleQuestions[1]);
-    } else {
-        userInfo.roleInfo = await inquirer.prompt(roleQuestions[2]);
-    }
-};
+        if (userInfo.role === 'manager') {
+            userInfo.roleInfo = await inquirer.prompt(roleQuestions[0]);
+        } else if (userInfo.role === 'engineer') {
+            userInfo.roleInfo = await inquirer.prompt(roleQuestions[1]);
+        } else {
+            userInfo.roleInfo = await inquirer.prompt(roleQuestions[2]);
+        }
+        await writeFileAsync('team.html', generateHTML(userInfo.roleInfo.name.id.email.response), 'utf8');
 
+    } catch (err) {
+        console.error(err);
+    };
 
+}
 
 
 
