@@ -1,14 +1,13 @@
 # Employee Recorder
+Are you a business owner? Is your company growing with new roles developing and more employees are required? Things can quickly get very complicated very quickly. What is a business owner to do?
 
-## Table of contents
+## You Are In Luck!
 
-- This
-- Project
-- BROKE ME
+Welcome to the employee recorder! You can track all the roles, employees, salaries and id numbers of every single person on your team!
 
 ## General Info
 
-I could not make the whole process work. I had certain pieces working and then just broke it all so I put it back to the point where it was working. Perhaps I was just thinking that it was more similar to the last homework and it was not. My brain is broken at this point and I know there are a lot of functions in there that did not get called an I suppose I just am barely understanding Javascript is the bottom line and I get lost in the code.
+This application  enables you to add info into a database to keep track of all your employees and their roles!
 
 ## Technologies
 
@@ -18,8 +17,7 @@ Project is created with :
 
 ## Summary
 
-I suppose I am giving up. I tried really hard to get it done but the truth of the matter is I just didn't have enough time to it and I don't understand the concepts enough to get my code working and I am completely devastated about it. There just isn't enough help and people can't explain in a way I understand and it takes me forever to grasp it.
-
+I definitely have some future expansions that I will be developing for this project. Specifically *getting it working!* :smile:
 ## Authors
 
 - Esther Walker
@@ -28,7 +26,7 @@ I suppose I am giving up. I tried really hard to get it done but the truth of th
 
 The MIT License (MIT)
 
-Copyright (c) 2020
+Copyright (c) 2020 Esther Walker
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
